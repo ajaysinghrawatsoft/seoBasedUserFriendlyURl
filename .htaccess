@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^works/(.*)$ works/content.php?slug=$1 [L]
